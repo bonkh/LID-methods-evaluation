@@ -1,10 +1,8 @@
-
 from datasets import load_dataset, get_dataset_config_names
 from huggingface_hub import login
 import json
 
 login(token="hf_token")
-
 
 dataset_name = "uonlp/CulturaX"
 
